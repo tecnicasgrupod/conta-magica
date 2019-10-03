@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: com.grupod.FuncionarioTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 8, Errors: 8, Skipped: 0, Time elapsed: 0.594 s <<< FAILURE! - in com.grupod.FuncionarioTest
+getINSS{int, int}[2]  Time elapsed: 0.025 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <45.0> but was: <450.0>
+	at com.grupod.FuncionarioTest.getINSS(FuncionarioTest.java:27)
+
+getINSS{int, int}[3]  Time elapsed: 0.002 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: Error resolving parameter at index 1
+Caused by: org.junit.jupiter.params.converter.ArgumentConversionException: Failed to convert String "112.50" to type java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "112.50"
+
+getINSS{int, int}[4]  Time elapsed: 0.002 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: Error resolving parameter at index 1
+Caused by: org.junit.jupiter.params.converter.ArgumentConversionException: Failed to convert String "112.54" to type java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "112.54"
+
+getINSS{int, int}[5]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4500.0> but was: <225.0>
+	at com.grupod.FuncionarioTest.getINSS(FuncionarioTest.java:27)
+
+getINSS{int, int}[6]  Time elapsed: 0.002 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: Error resolving parameter at index 0
+Caused by: org.junit.jupiter.params.converter.ArgumentConversionException: Failed to convert String "111111.12" to type java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "111111.12"
+
+getINSS{int, int}[7]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5000.0> but was: <225.0>
+	at com.grupod.FuncionarioTest.getINSS(FuncionarioTest.java:27)
+
+getIR{int, int}[3]  Time elapsed: 0.002 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: Error resolving parameter at index 1
+Caused by: org.junit.jupiter.params.converter.ArgumentConversionException: Failed to convert String "0.12" to type java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "0.12"
+
+getIR{int, int}[4]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <11400.0> but was: <1140.0>
+	at com.grupod.FuncionarioTest.getIR(FuncionarioTest.java:36)
+
+getIR{int, int}[5]  Time elapsed: 0.001 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: Error resolving parameter at index 0
+Caused by: org.junit.jupiter.params.converter.ArgumentConversionException: Failed to convert String "111111.12" to type java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "111111.12"
+
+getIR{int, int}[6]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <23700.0> but was: <2340.0>
+	at com.grupod.FuncionarioTest.getIR(FuncionarioTest.java:36)
+
+getSalarioLiquido{int, int}[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <995.0> but was: <550.0>
+	at com.grupod.FuncionarioTest.getSalarioLiquido(FuncionarioTest.java:45)
+
+getSalarioLiquido{int, int}[3]  Time elapsed: 0.002 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: Error resolving parameter at index 1
+Caused by: org.junit.jupiter.params.converter.ArgumentConversionException: Failed to convert String "2387.50" to type java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "2387.50"
+
+getSalarioLiquido{int, int}[4]  Time elapsed: 0.001 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: Error resolving parameter at index 1
+Caused by: org.junit.jupiter.params.converter.ArgumentConversionException: Failed to convert String "2388.34" to type java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "2388.34"
+
+getSalarioLiquido{int, int}[5]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <84100.0> but was: <98635.0>
+	at com.grupod.FuncionarioTest.getSalarioLiquido(FuncionarioTest.java:45)
+
+getSalarioLiquido{int, int}[6]  Time elapsed: 0.001 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: Error resolving parameter at index 0
+Caused by: org.junit.jupiter.params.converter.ArgumentConversionException: Failed to convert String "111111.12" to type java.lang.Integer
+Caused by: java.lang.NumberFormatException: For input string: "111111.12"
+
+getSalarioLiquido{int, int}[7]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <171300.0> but was: <197435.0>
+	at com.grupod.FuncionarioTest.getSalarioLiquido(FuncionarioTest.java:45)
+
