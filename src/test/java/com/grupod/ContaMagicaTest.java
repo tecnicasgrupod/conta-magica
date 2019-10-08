@@ -143,4 +143,14 @@ public class ContaMagicaTest {
         assertEquals(res, myAccount.getSaldo(), 0.0001);
     }
 
+    @DisplayName("Teste Saque Platina")
+    @ParameterizedTest
+    @CsvSource({ "201000, 0", "50000, 151000" })
+    public void testeSaquePlatina(int valor, int res) throws INVALID_OPER_EXCEPTION {
+        myAccount.deposito(100000);
+        myAccount.deposito(100000);
+        myAccount.retirada(valor);
+        assertEquals(res, myAccount.getSaldo(), 0.0001);
+    }
+
 }
